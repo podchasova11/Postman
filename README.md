@@ -253,3 +253,7 @@ newman запустить PostmanTestCollection.postman_collection.json -e Testi
 Запуск с файлом данных. newman run <имя коллекции> --data <имя файла> -n <число итераций> -e <имя среды>
 Установить время задержки. Это важно, так как тесты могут завершиться неудачно, если они выполняются без задержки из-за запуска запросов без завершения обработки предыдущего запроса на сервере конечной точки.
 newman run <название коллекции> -d <время задержки>
+
+
+https://onff.ru/rukovodstvo-polzovatielia-postman-kak-ispolzovat-instrumient-dlia-tiestirovaniia-api/
+
